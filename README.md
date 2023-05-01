@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # arqui3real
 
 This application was generated using JHipster 7.9.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
@@ -232,4 +234,9 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [jest]: https://facebook.github.io/jest/
 [leaflet]: https://leafletjs.com/
 [definitelytyped]: https://definitelytyped.org/
-[gatling]: https://gatling.io/
+
+# [gatling]: https://gatling.io/
+
+# Lab3Arquitectura_IngresosyReigresos
+
+> > > > > > > 0b49ce861e5f218e54a23e3220e02239d6cbdcc7
