@@ -1,0 +1,25 @@
+{
+  "arqui3RealApp": {
+    "carrera": {
+      "home": {
+        "title": "Carreras",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Carrera",
+        "createOrEditLabel": "Crear o editar Carrera",
+        "notFound": "Ningún Carreras encontrado"
+      },
+      "created": "Un nuevo Carrera ha sido creado con el identificador {{ param }}",
+      "updated": "Un Carrera ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Carrera ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Carrera {{ id }}?"
+      },
+      "detail": {
+        "title": "Carrera"
+      },
+      "id": "Id",
+      "nombre": "Nombre",
+      "modalidad": "Modalidad"
+    }
+  }
+}

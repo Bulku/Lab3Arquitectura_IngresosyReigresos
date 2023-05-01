@@ -1,0 +1,25 @@
+{
+  "arqui3RealApp": {
+    "pensum": {
+      "home": {
+        "title": "Pensums",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Pensum",
+        "createOrEditLabel": "Crear o editar Pensum",
+        "notFound": "Ningún Pensums encontrado"
+      },
+      "created": "Un nuevo Pensum ha sido creado con el identificador {{ param }}",
+      "updated": "Un Pensum ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Pensum ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Pensum {{ id }}?"
+      },
+      "detail": {
+        "title": "Pensum"
+      },
+      "id": "Id",
+      "numero": "Numero",
+      "materias": "Materias"
+    }
+  }
+}

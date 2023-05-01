@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20230430172633",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "solicitud_reingreso",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "fechaSolicitud",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "motivo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SolicitudReingreso",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "estudiante",
+      "ownerSide": true,
+      "relationshipName": "estudiante",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

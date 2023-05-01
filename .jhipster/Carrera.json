@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20230430172635",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "carrera",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modalidad",
+      "fieldType": "Modalidad",
+      "fieldValues": "PRESENCIAL,VIRTUAL"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Carrera",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

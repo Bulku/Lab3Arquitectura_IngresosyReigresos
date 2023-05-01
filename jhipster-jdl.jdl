@@ -1,0 +1,78 @@
+entity Estudiante {
+  id Long
+  nombre String 
+  apellido String 
+  fechaNacimiento Instant
+  correo String 
+  direccion String 
+}
+
+entity SolicitudReingreso {
+  id Long,
+  fechaSolicitud Instant 
+  motivo String 
+}
+
+entity DocumentoReingresoEstudiante {
+  id Long
+  nombreDocumento String 
+  descripcionDocumento String 
+}
+
+entity Carrera {
+  id Long
+  nombre String 
+  modalidad Modalidad
+}
+
+enum Modalidad {
+  PRESENCIAL, VIRTUAL
+}
+
+entity Pensum {
+  id Long
+  numero Long
+}
+
+entity Materia {
+  id Long
+  nombre String
+  creditos Long 
+}
+
+entity Sede {
+  id Long
+  nombre String
+  direccion String 
+}
+
+entity IngresoEstudiante {
+  id Long
+  fechaIngreso Instant
+}
+
+entity DocumentoIngresoEstudiante {
+  id Long,
+  nombreDocumento String
+  descripcionDocumento String 
+}
+
+
+relationship OneToOne {
+  SolicitudReingreso{estudiante} to Estudiante
+  DocumentoReingresoEstudiante{solicitudReingreso} to SolicitudReingreso
+  IngresoEstudiante{estudiante} to Estudiante
+  IngresoEstudiante{carrera} to Carrera
+  IngresoEstudiante{sede} to Sede
+  IngresoEstudiante{pensum} to Pensum
+  DocumentoIngresoEstudiante{ingresoEstudiante} to IngresoEstudiante
+}
+
+relationship ManyToMany {
+  Pensum{materias} to Materia{pensums}
+}
+
+
+paginate Carrera, Pensum with infinite-scroll
+
+paginate IngresoEstudiante with pagination

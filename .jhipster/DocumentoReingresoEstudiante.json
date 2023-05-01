@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20230430172634",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "documento_reingreso_estudiante",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nombreDocumento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcionDocumento",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DocumentoReingresoEstudiante",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "solicitudReingreso",
+      "ownerSide": true,
+      "relationshipName": "solicitudReingreso",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

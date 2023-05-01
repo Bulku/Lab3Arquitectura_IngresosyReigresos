@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20230430172637",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "materia",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creditos",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Materia",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "pensum",
+      "otherEntityRelationshipName": "materias",
+      "ownerSide": false,
+      "relationshipName": "pensums",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

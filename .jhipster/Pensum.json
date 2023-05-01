@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20230430172636",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "pensum",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "numero",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pensum",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "materia",
+      "otherEntityRelationshipName": "pensums",
+      "ownerSide": true,
+      "relationshipName": "materias",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

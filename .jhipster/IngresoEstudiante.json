@@ -1,0 +1,49 @@
+{
+  "applications": "*",
+  "changelogDate": "20230430172639",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ingreso_estudiante",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "fechaIngreso",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "IngresoEstudiante",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "estudiante",
+      "ownerSide": true,
+      "relationshipName": "estudiante",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "carrera",
+      "ownerSide": true,
+      "relationshipName": "carrera",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "sede",
+      "ownerSide": true,
+      "relationshipName": "sede",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "pensum",
+      "ownerSide": true,
+      "relationshipName": "pensum",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

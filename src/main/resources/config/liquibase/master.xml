@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="floatType" value="float" dbms="mysql"/>
+    <property name="clobType" value="clob" dbms="mysql"/>
+    <property name="blobType" value="longblob" dbms="mysql"/>
+    <property name="uuidType" value="varchar(36)" dbms="mysql"/>
+    <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172632_added_entity_Estudiante.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172633_added_entity_SolicitudReingreso.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172634_added_entity_DocumentoReingresoEstudiante.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172635_added_entity_Carrera.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172636_added_entity_Pensum.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172637_added_entity_Materia.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172638_added_entity_Sede.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172639_added_entity_IngresoEstudiante.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172640_added_entity_DocumentoIngresoEstudiante.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20230430172633_added_entity_constraints_SolicitudReingreso.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172634_added_entity_constraints_DocumentoReingresoEstudiante.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172636_added_entity_constraints_Pensum.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172639_added_entity_constraints_IngresoEstudiante.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230430172640_added_entity_constraints_DocumentoIngresoEstudiante.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

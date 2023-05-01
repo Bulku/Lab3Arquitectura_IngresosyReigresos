@@ -1,0 +1,28 @@
+{
+  "arqui3RealApp": {
+    "ingresoEstudiante": {
+      "home": {
+        "title": "Ingreso Estudiantes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Ingreso Estudiante",
+        "createOrEditLabel": "Crear o editar Ingreso Estudiante",
+        "notFound": "Ningún Ingreso Estudiantes encontrado"
+      },
+      "created": "Un nuevo Ingreso Estudiante ha sido creado con el identificador {{ param }}",
+      "updated": "Un Ingreso Estudiante ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Ingreso Estudiante ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Ingreso Estudiante {{ id }}?"
+      },
+      "detail": {
+        "title": "Ingreso Estudiante"
+      },
+      "id": "Id",
+      "fechaIngreso": "Fecha Ingreso",
+      "estudiante": "Estudiante",
+      "carrera": "Carrera",
+      "sede": "Sede",
+      "pensum": "Pensum"
+    }
+  }
+}

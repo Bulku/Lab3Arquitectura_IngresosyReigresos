@@ -1,0 +1,26 @@
+{
+  "arqui3RealApp": {
+    "solicitudReingreso": {
+      "home": {
+        "title": "Solicitud Reingresos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Solicitud Reingreso",
+        "createOrEditLabel": "Crear o editar Solicitud Reingreso",
+        "notFound": "Ningún Solicitud Reingresos encontrado"
+      },
+      "created": "Un nuevo Solicitud Reingreso ha sido creado con el identificador {{ param }}",
+      "updated": "Un Solicitud Reingreso ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Solicitud Reingreso ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Solicitud Reingreso {{ id }}?"
+      },
+      "detail": {
+        "title": "Solicitud Reingreso"
+      },
+      "id": "Id",
+      "fechaSolicitud": "Fecha Solicitud",
+      "motivo": "Motivo",
+      "estudiante": "Estudiante"
+    }
+  }
+}

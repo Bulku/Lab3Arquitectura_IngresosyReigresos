@@ -1,0 +1,26 @@
+{
+  "arqui3RealApp": {
+    "documentoIngresoEstudiante": {
+      "home": {
+        "title": "Documento Ingreso Estudiantes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Documento Ingreso Estudiante",
+        "createOrEditLabel": "Create or edit a Documento Ingreso Estudiante",
+        "notFound": "No Documento Ingreso Estudiantes found"
+      },
+      "created": "A new Documento Ingreso Estudiante is created with identifier {{ param }}",
+      "updated": "A Documento Ingreso Estudiante is updated with identifier {{ param }}",
+      "deleted": "A Documento Ingreso Estudiante is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Documento Ingreso Estudiante {{ id }}?"
+      },
+      "detail": {
+        "title": "Documento Ingreso Estudiante"
+      },
+      "id": "Id",
+      "nombreDocumento": "Nombre Documento",
+      "descripcionDocumento": "Descripcion Documento",
+      "ingresoEstudiante": "Ingreso Estudiante"
+    }
+  }
+}

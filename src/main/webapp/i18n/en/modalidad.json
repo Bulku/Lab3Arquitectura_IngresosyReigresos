@@ -1,0 +1,9 @@
+{
+  "arqui3RealApp": {
+    "Modalidad": {
+      "null": "",
+      "PRESENCIAL": "PRESENCIAL",
+      "VIRTUAL": "VIRTUAL"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "arqui3RealApp": {
+    "documentoReingresoEstudiante": {
+      "home": {
+        "title": "Documento Reingreso Estudiantes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Documento Reingreso Estudiante",
+        "createOrEditLabel": "Create or edit a Documento Reingreso Estudiante",
+        "notFound": "No Documento Reingreso Estudiantes found"
+      },
+      "created": "A new Documento Reingreso Estudiante is created with identifier {{ param }}",
+      "updated": "A Documento Reingreso Estudiante is updated with identifier {{ param }}",
+      "deleted": "A Documento Reingreso Estudiante is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Documento Reingreso Estudiante {{ id }}?"
+      },
+      "detail": {
+        "title": "Documento Reingreso Estudiante"
+      },
+      "id": "Id",
+      "nombreDocumento": "Nombre Documento",
+      "descripcionDocumento": "Descripcion Documento",
+      "solicitudReingreso": "Solicitud Reingreso"
+    }
+  }
+}
